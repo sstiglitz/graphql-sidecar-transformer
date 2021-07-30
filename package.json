@@ -1,6 +1,6 @@
 {
   "name": "graphql-sidecar-transformer",
-  "version": "0.0.4",
+  "version": "1.0.2",
   "description": "A direct copy of @firehose, but without making use of pipeline resolvers.",
   "main": "./lib/index.js",
   "scripts": {
