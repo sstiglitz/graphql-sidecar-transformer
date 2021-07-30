@@ -1,0 +1,25 @@
+{
+  "name": "graphql-sidecar-transformer",
+  "version": "1.0.0",
+  "description": "A direct copy of @firehose, but without making use of pipeline resolvers.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "Sean Stiglitz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^16.4.7",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "graphql": "^15.5.1",
+    "graphql-mapping-template": "^4.18.1",
+    "graphql-transformer-common": "^4.19.6",
+    "graphql-transformer-core": "^6.29.1"
+  }
+}
