@@ -1,1 +1,3 @@
-export * from './sidecarTransformer'
+import { SidecarTransformer } from "./SidecarTransformer";
+
+export default SidecarTransformer;
